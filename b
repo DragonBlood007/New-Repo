@@ -1,12 +1,15 @@
 body {
-	background:	#e9ebee;
+	background:	pink;
 }
 .head{
 	background-color: rgb(59,89,152);
 	border color: rgb(59,89,152);
 }
+
+
+
 .button{
-	color: white;
+
 	background: rgb(59,89,152);
 }
 
@@ -62,7 +65,7 @@ p{
 }
 .up{
 	font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
-    font-weight: bold !important;
+    font-weight: bold;
     letter-spacing: normal;
     text-rendering: optimizelegibility;
 }

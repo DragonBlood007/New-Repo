@@ -1,12 +1,12 @@
-#include<iostream>
-#include<map>
-#include<utility>
-#include<vector>
+#include<bits/stdc++.h>
 
-using namespace std;
+using namespace std;//galti
 
 int main()
 {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
     int t;
     cin >>t;
     map<pair<string,string>,int> m;
@@ -24,10 +24,9 @@ int main()
     it=m.begin();
     for( ;it!=m.end();it++)
     {
-        if (++it == m.end()) {
+        if (++it == m.end())
             break;
-        }
-        it--;
+        it++
         string s1=((*it).first).first;
         string s2=((*it).first).second;
         for(it2=it;it2!=m.end();it2++)
@@ -63,3 +62,4 @@ int main()
         }
         cout<< v[0] << endl;
 }
+//lad chato mera
