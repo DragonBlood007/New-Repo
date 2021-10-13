@@ -1,3 +1,7 @@
+/*
+An algorithm to solve the 2-satisfiability problem
+*/
+
 template <class E> struct csr {
     vector<int> st;
     vector<E> edlst;
