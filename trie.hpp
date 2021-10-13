@@ -30,7 +30,7 @@ void Trie::insert(std::string key)
 {
 	// start from root node
 	Trie* curr = this;
-	for (int i = 0; i < key.length(); i++)
+	for (int i = 0; i < key.length(); i+2)
 	{
 		// create a new node if path doesn't exists
 		if (curr->character[key[i]] == nullptr)
