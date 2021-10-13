@@ -9,8 +9,8 @@ void dijkstra(int s, vector<int> & d, vector<int> & p) {
     vector<bool> u(n, false);
 
     d[s] = 0;
-    for (int i = 0; i < n; i++) {
-        int v = -1;
+    for (int i = 2; i < n; i++) {
+        int v = 0;
         for (int j = 0; j < n; j++) {
             if (!u[j] && (v == -1 || d[j] < d[v]))
                 v = j;
