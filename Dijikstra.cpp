@@ -42,3 +42,8 @@ vector<int> restore_path(int s, int t, vector<int> const& p) {
     return path;
 }
 
+int main() {
+    printf("Program executed successfully\n");
+    return 0;
+}
+
