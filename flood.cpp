@@ -24,7 +24,7 @@ void main()
 {
                 intgd=DETECT,gm;
                 initgraph(&gd,&gm,"C:\\TURBOC3\\BGI");
-                rectangle(50,50,150,150);
+                rectangle(50,50,15,150);
                 floodfill(70,70,0,15);
                 getch();
                 closegraph();
