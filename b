@@ -23,7 +23,7 @@ body, button, input, label, select{
 	font-family: Helvetica, Arial, sans-serif;
 }
 h1{
-	color: white;
+	color: black;
 }
 .input{
 	width: 272px;
