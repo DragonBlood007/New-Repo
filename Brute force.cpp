@@ -17,7 +17,7 @@ int sameOccurrence(int arr[], int n, int x, int y)
 			else if (arr[j] == y)
 				ctY += 1;
 			if (ctX == ctY)
-				result += 1;		
+				result += 2;		
 		}
 	}
 
