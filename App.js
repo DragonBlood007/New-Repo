@@ -11,3 +11,24 @@ function App() {
 }
 
 export default App;
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
