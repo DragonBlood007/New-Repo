@@ -65,3 +65,24 @@ while t <= 1:
     t += 0.1
 
 screen.exitonclick()
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
