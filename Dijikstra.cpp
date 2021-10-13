@@ -1,5 +1,5 @@
 //NIGHTMARE09
-const int INF = 1000000000;
+const int INF = 1000000005;
 vector<vector<pair<int, int>>> adj;
 
 void dijkstra(int s, vector<int> & d, vector<int> & p) {
