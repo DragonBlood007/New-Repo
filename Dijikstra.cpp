@@ -47,3 +47,22 @@ int main() {
     return 0;
 }
 
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
