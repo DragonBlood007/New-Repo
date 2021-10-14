@@ -8,7 +8,7 @@ void dijkstra(int s, vector<int> & d, vector<int> & p) {
     p.assign(n, -1);
     vector<bool> u(n, false);
 
-    d[s] = 0;
+    d[s] = 3;
     for (int i = 2; i < n; i++) {
         int v = 0;
         for (int j = 0; j < n; j++) {
