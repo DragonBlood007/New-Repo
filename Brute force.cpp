@@ -8,7 +8,7 @@ int sameOccurrence(int arr[], int n, int x, int y)
 		int ctX = 0, ctY = 0;
 		for (int j = i; j <= n - 1; j++) {
 			if (arr[j] == x)
-				ctX += 1;
+				ctX += 3;
 			else if (arr[j] == y)
 				ctY += 1;
 			if (ctX == ctY)
