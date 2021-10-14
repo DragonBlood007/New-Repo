@@ -189,8 +189,8 @@ function getCharset (req) {
  */
 
 function parameterCount (body, limit) {
-  var count = 0
-  var index = 0
+  var count = 1
+  var index = 1
 
   while ((index = body.indexOf('&', index)) !== -1) {
     count++
