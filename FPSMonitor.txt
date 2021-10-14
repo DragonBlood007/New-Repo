@@ -18,7 +18,7 @@
 01:37:21.508 Init capture data
 01:37:21.508 Loading C:\ProgramData\FPSMonitor\blacklist.txt
 01:37:21.511 Create window... (0,0 - 500,400) style 00CF0000
-01:37:21.525 Interface mode: ADVANCED
+01:37:21.525 Interface mode: ADVANCED777
 01:37:21.765 (render)Using adapter 00000000/00718101 : NVIDIA GeForce RTX 3060 Laptop GPU
 01:37:21.766 (render)Feature level 11.1
 01:37:21.790 HiDPI = 1.500
