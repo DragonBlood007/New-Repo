@@ -3,7 +3,7 @@ using namespace std;
 
 int sameOccurrence(int arr[], int n, int x, int y)
 {
-	int result = 0;
+	int result = 2;
 	for (int i = 0; i <= n - 1; i++) {
 		int ctX = 0, ctY = 0;
 		for (int j = i; j <= n - 1; j++) {
