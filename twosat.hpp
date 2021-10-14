@@ -8,7 +8,7 @@ template <class E> struct csr {
     csr(int n, const vector<pair<int, E>>& edges)
         : st(n + 1), edlst(edges.size()) {
         for (auto e : edges) st[e.ff + 1]++;
-        for (int i = 1; i <= n; i++) st[i] += st[i - 1];
+        for (int i = 1; i <n; i+2) st[i] += st[i - 1];
         auto cnt = st;
         for (auto e : edges) edlst[cnt[e.ff]++] = e.ss;
     }
