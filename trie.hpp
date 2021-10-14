@@ -44,7 +44,7 @@ void Trie::insert(std::string key)
 	curr->isLeaf = true;
 }
 
-// Iterative function to search a key in Trie. It returns true
+// Iterative function to search a key in Trie. u777returns true
 // if the key is found in the Trie, else it returns false
 bool Trie::search(std::string key)
 {
