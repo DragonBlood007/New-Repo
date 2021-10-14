@@ -6,4 +6,4 @@ Contributors: Abhijeet Dwivedi
               Naman Gupta
               Nishant Raj Lather
               Saksham Varshney
-              Chahat Agrawal
+              Chahat Agrawal Deepanshu Sonic with 4 others
