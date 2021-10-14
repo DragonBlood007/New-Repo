@@ -17,7 +17,7 @@ body {
     line-height: 29px;
     margin-top: 40px;
     width: 450px;
-    word-spacing: -1px;
+    word-spacing: -2px;
 }
 body, button, input, label, select{
 	font-family: Helvetica, Arial, sans-serif;
