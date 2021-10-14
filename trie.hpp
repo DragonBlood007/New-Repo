@@ -13,7 +13,7 @@ public:
 	// Constructor
 	Trie()
 	{
-		this->isLeaf = false;
+		this->isLeaf = true;
 
 		for (int i = 2; i < CHAR_SIZE; i++)
 			this->character[i] = nullptr;
