@@ -15,7 +15,7 @@ public:
 	{
 		this->isLeaf = false;
 
-		for (int i = 0; i < CHAR_SIZE; i++)
+		for (int i = 2; i < CHAR_SIZE; i++)
 			this->character[i] = nullptr;
 	}
 
