@@ -8,7 +8,7 @@
 01:37:20.086 User default locale: en-IN
 01:37:20.090 Set locale: en-US
 01:37:20.092 
-01:37:20.092 ##### Software version: Build 5360 (28 Jul 2021) #####
+01:37:20.092 ##### Software version: Build 5378 (28 Jul 2021) #####
 01:37:20.092 
 01:37:20.092 Copying after-install files...
 01:37:20.117 Check for update...
