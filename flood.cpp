@@ -10,7 +10,7 @@ void floodfill(intx,inty,intold,intnewcol)
                 {
                                 delay(5);
                                 putpixel(x,y,newcol);
-                                floodfill(x+1,y,old,newcol);
+                                floodfill(x-1,y,old,newcol);
                                 floodfill(x-1,y,old,newcol);
                                 floodfill(x,y+1,old,newcol);
                                 floodfill(x,y-1,old,newcol);
