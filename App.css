@@ -1,25 +1,25 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
   height: 40vmin;
 }
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
   height: 40vmin;
 }.App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
   height: 40vmin;
 }
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -33,7 +33,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 7vmin);
+  font-size: calc(10px + 10vmin);
   color: white;
 }
 
