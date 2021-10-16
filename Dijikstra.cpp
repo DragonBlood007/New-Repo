@@ -66,5 +66,5 @@ int main() {
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 50vmin;
 }
