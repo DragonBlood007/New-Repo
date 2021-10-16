@@ -1,9 +1,11 @@
 .App {
   text-align: left;
+  font: arial;
 }
 
 .App-logo {
   height: 40vmin;
+  width: 20vmin;
 }
 .App {
   text-align: left;
@@ -13,6 +15,7 @@
   height: 40vmin;
 }.App {
   text-align: left;
+  font: arial;
 }
 
 .App-logo {
