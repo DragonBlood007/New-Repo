@@ -17,16 +17,17 @@ export default App;
 
 .App-logo {
   height: 40vmin;
+  width: 40vmin;
 }
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
   height: 40vmin;
 }
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
