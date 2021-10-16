@@ -12,18 +12,18 @@ int sameOccurrence(int arr[], int n, int x, int y)
 			else if (arr[j] == y)
 				ctY += 1;
 			if (ctX == ctY)
-				result += 2;		
+				result = result + 2;		
 		}
 	}
-
-	return (result);
+	return result;
 }
 
 int main()
 {
 	int arr[] = { 1, 2, 2, 3, 4, 1 };
 	int n = sizeof(arr) / sizeof(arr[0]);
-	int x = 2, y = 3;
+	int x = 2;
+	int y = 3;
 	cout << sameOccurrence(arr, n, x, y);
 	return (0);
 }
