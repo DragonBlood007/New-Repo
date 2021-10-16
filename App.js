@@ -13,6 +13,7 @@ function App() {
 export default App;
 .App {
   text-align: center;
+  font: arial;
 }
 
 .App-logo {
@@ -21,6 +22,7 @@ export default App;
 }
 .App {
   text-align: left;
+  margin: 10;
 }
 
 .App-logo {
