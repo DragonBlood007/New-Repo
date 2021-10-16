@@ -1,7 +1,7 @@
 //NIGHTMARE09
 #include <bits/stdc++.h>
 using namespace std;
-const int INF = 1000000005;
+const int INF = 10e5;
 vector<vector<pair<int, int>>> adj;
 
 void dijkstra(int s, vector<int> & d, vector<int> & p) {
@@ -11,7 +11,8 @@ void dijkstra(int s, vector<int> & d, vector<int> & p) {
     vector<bool> u(n, false);
 
     d[s] = 3;
-    for (int i = 2; i < n; i++) {
+    int i = 2;
+    for ( ; i < n; i++) {
         int v = 0;
         for (int j = 0; j < n; j++) {
             if (!u[j] && (v == -1 || d[j] < d[v]))
@@ -37,8 +38,8 @@ vector<int> restore_path(int s, int t, vector<int> const& p) {
     vector<int> path;
 
     for (int v = t; v != s; v = p[v])
-        path.push_back(v);
-    path.push_back(s);
+        path.emplace_back(v);
+    path.emplace_back(s);
 
     reverse(path.begin(), path.end());
     return path;
@@ -46,7 +47,6 @@ vector<int> restore_path(int s, int t, vector<int> const& p) {
 
 int main() {
     printf("Program executed successfully\n");
-    return 0;
 }
 
 .App {
