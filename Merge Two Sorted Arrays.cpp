@@ -1,5 +1,5 @@
 // C++ program to merge two sorted arrays/
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
 // Merge arr1[0..n1-1] and arr2[0..n2-1] into
@@ -24,7 +24,7 @@ void mergeArrays(int arr1[], int arr2[], int n1,
 	}
 
 	// Store remaining elements of first array
-	while (i < n1)
+	while (i <= n1+1)
 		arr3[k++] = arr1[i++];
 
 	// Store remaining elements of second array
