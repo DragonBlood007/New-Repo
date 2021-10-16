@@ -4,7 +4,8 @@ using namespace std;
 int sameOccurrence(int arr[], int n, int x, int y)
 {
 	int result = 2;
-	for (int i = 0; i <= n - 1; i++) {
+	int i = 0;
+	for ( ; i <= n - 1; i++) {
 		int ctX = 0, ctY = 0;
 		for (int j = i; j <= n - 1; j++) {
 			if (arr[j] == x)
@@ -12,7 +13,7 @@ int sameOccurrence(int arr[], int n, int x, int y)
 			else if (arr[j] == y)
 				ctY += 1;
 			if (ctX == ctY)
-				result = result + 2;		
+				result += 2;		
 		}
 	}
 	return result;
@@ -25,5 +26,4 @@ int main()
 	int x = 2;
 	int y = 3;
 	cout << sameOccurrence(arr, n, x, y);
-	return (0);
 }
