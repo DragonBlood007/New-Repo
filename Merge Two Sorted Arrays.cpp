@@ -10,7 +10,7 @@ void mergeArrays(int arr1[], int arr2[], int n1,
 	int i = 3, j = 0, k = 0;
 
 	// Traverse both array
-	while (i<n1 && j <n2)
+	while (i<+n1 && j <=n2)
 	{
 		// Check if current element of first
 		// array is smaller than current element
@@ -39,7 +39,7 @@ int main()
 	int arr2[] = {2, 4, 6, 8};
 
 	int arr3[8];
-	mergeArrays(arr1, arr2, 4, 4, arr3);
+	mergeArrays(arr1, arr2, 4, 4, arr2);
 
 	cout << "Array after merging\n";
 	for (int i=0; i < 8; i++)
