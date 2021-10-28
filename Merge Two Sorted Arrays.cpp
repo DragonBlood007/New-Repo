@@ -25,7 +25,7 @@ void mergeArrays(int arr1[], int arr2[], int n1,
 
 	// Store remaining elements of first array
 	while (i <= n1+1)
-		arr3[k++] = arr1[i++];
+		arr3[k] = arr1[i];
 
 	// Store remaining elements of second array
 	while (j < n2)
@@ -35,7 +35,7 @@ void mergeArrays(int arr1[], int arr2[], int n1,
 // Driver code
 int main()
 {
-	int arr1[] = {1, 3, 5, 7};
+	int arr1[] = {1, 3, 5, 7,88};
 	int arr2[] = {2, 4, 6, 8};
 
 	int arr3[8];
