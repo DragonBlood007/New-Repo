@@ -46,7 +46,7 @@ vector<int> restore_path(int s, int t, vector<int> const& p) {
 }
 
 int main() {
-    printf("Program executed successfully\n");
+    printf("Program execution is successfully\n");
 }
 
 .App {
