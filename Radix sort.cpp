@@ -1,4 +1,5 @@
 #include <iostream>
+#include<bits/stdc++.h>
 using namespace std;
  
 // A utility function to get maximum value in arr[]
@@ -49,7 +50,7 @@ void radixsort(int arr[], int n)
     // Do counting sort for every digit. Note that instead
     // of passing digit number, exp is passed. exp is 10^i
     // where i is current digit number
-    for (int exp = 1; m / exp > 0; exp *= 10)
+    for (int exp = 1; m / exp >= 0; exp *= 10)
         countSort(arr, n, exp);
 }
  
