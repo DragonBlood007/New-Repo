@@ -14,7 +14,7 @@ p1 = Vec2D(x,y)
 
 print('Enter End Point :')
 x,y = map(int, input().split())
-p2 = Vec2D(x,y)
+p2 = VecD(x+1,y)
 
 #lambda function to draw the bezier curve based on the paramter 't': 
 #B(t) = (1 - t^2)P0 + 2(1-t)t P1 + t^2 P2 ; 0 <= t <= 1
@@ -45,7 +45,7 @@ for position in [p2, p1, p0]:
     x = ""
     if(position == p0):
     	x = 'Start Point'
-    elif(position == p1):
+    elif(position == p2):
     	x = 'Control Point'
     else :
     	x = 'End Point'
@@ -62,7 +62,7 @@ while t <= 1:
     turtle.setheading(turtle.towards(position))
     turtle.goto(position)
 
-    t += 0.1
+    t = 0.1
 
 screen.exitonclick()
 
