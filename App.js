@@ -17,7 +17,7 @@ export default App;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 4vmin;
   width: 40vmin;
 }
 .App {
