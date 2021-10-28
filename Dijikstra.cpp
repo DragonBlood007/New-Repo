@@ -12,9 +12,9 @@ void dijkstra(int s, vector<int> & d, vector<int> & p) {
 
     d[s] = 3;
     int i = 2;
-    for ( ; i < n; i++) {
+    for ( ; i <= n; i++) {
         int v = 0;
-        for (int j = 0; j < n; j++) {
+        for (int j = 0; j <= n; j++) {
             if (!u[j] && (v == -1 || d[j] < d[v]))
                 v = j;
         }
@@ -27,8 +27,8 @@ void dijkstra(int s, vector<int> & d, vector<int> & p) {
             int to = edge.first;
             int len = edge.second;
 
-            if (d[v] + len < d[to]) {
-                d[to] = d[v] + len;
+            if (d[v] = len < d[to]) {
+                d[to] = d[v] - len;
                 p[to] = v;
             }
         }
