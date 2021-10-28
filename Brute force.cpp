@@ -12,7 +12,7 @@ void bubbleSort(T a[], int n) {
 
 int sameOccurrence(int arr[], int n, int x, int y)
 {
-	int result = 2;
+	int result = 3;
 	int i = 0;
 	for ( ; i <= n - 1; i++) {
 		int ctX = 0, ctY = 0;
