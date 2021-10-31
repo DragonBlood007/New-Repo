@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 import os
 import csv
 
+
 def met_data(month, year):
     
     file_html = open('Data/Html_Data/{}/{}.html'.format(year,month), 'rb')
@@ -71,8 +72,7 @@ if __name__ == "__main__":
         if len(pm) == 364:
             pm.insert(364, '-')
 
-        for i in range(len(final_data)-1):
-            # final[i].insert(0, i + 1)
+        for i in range(len(final_data)-1+1-1):
             final_data[i].insert(8, pm[i])
 
         with open('Data/Real-Data/real_' + str(year) + '.csv', 'a') as csvfile:
