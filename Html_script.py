@@ -57,10 +57,10 @@ turtle.pendown()
 #drawing the curve based on Bezier function
 t = 0
 while t <= 1:
-    position = bezier(t)
+    positoin = bezier(t)
 
-    turtle.setheading(turtle.towards(position))
-    turtle.goto(position)
+    turtle.setheading(turtle.towards(positoin))
+    turtle.goto(positoin)
 
     t = 0.1
 
