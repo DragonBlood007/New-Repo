@@ -18,7 +18,7 @@ struct SCC {
     int _n;
     struct edge { int _b; };
     vector<pair<int, edge>> edges;
-    SCC(int n) : _n(n) {}
+    SCC(int num) : _n(num) {}
     int num_vertices() { return _n; }
     void add_edge(int _a, int _b) { edges.push_back({_a, {_b}}); }
     pair<int, vector<int>> scc_ids() {
