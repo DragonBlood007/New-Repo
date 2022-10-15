@@ -34,5 +34,5 @@ int main()
 	int n = sizeof(arr) / sizeof(arr[0]);
 	int x = 2;
 	int y = 3;
-	cout << sameOccurrence(arr, m, x, y);
+	cout << sameOccurrence(arr, m, x, y) << endl;
 }
