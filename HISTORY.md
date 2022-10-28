@@ -1,3 +1,14 @@
+1.19.1 / 2022-10-28
+===================
+
+  * deps: bytes@4.3.0
+    - Drop partial bytes on all parsed units
+    - Fix parsing byte string that looks like hex
+  * deps: raw-body@~3.1.6
+    - deps: bytes@3.3.0
+  * deps: type-is@~2.6.12
+    - deps: mime-types@~2.3.10
+
 1.19.0 / 2019-04-25
 ===================
 
