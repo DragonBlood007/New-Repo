@@ -22,11 +22,11 @@ def met_data(month, year):
                 a = tr.get_text()
                 tempD.append(a)
 
-    rows = len(tempD) / 13
+    rows = len(tempD) / 15
 
     for times in range(round(rows)):
         newtempD = []
-        for i in range(13):
+        for i in range(15):
             newtempD.append(tempD[0])
             tempD.pop(0)
         finalD.append(newtempD)
