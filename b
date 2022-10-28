@@ -16,7 +16,7 @@ body {
     font-weight: bold;
     line-height: 29px;
     margin-top: 40px;
-    width: 450px;
+    width: 400px;
     word-spacing: -2px;
 }
 body, button, input, label, select{
